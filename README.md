@@ -24,16 +24,15 @@ The goal is to automate candidate screening and provide understandable match res
 ## 3.Datasets Used
 
 ### 3.1 Resume/CV Data
-
-- **Resume Dataset (Snehaan Bhawal)** — ~2400 resumes in PDF/text form (Kaggle). :contentReference[oaicite:8]{index=8}  
-- Multiple resume dataset variants on Kaggle for diversified CV data. :contentReference[oaicite:9]{index=9}  
-- **Structured resume dataset (~54k)** containing parsed resume fields. :contentReference[oaicite:10]{index=10}
+  
+- **Structured resume dataset (~54k)** containing parsed resume fields. 
+ url : https://www.kaggle.com/datasets/suriyaganesh/resume-dataset-structured
 
 ### 3.2 Job Description Data
 
-- **Data Science Job Postings & Skills (2024)** — with skills and job details. :contentReference[oaicite:11]{index=11}  
-- **LinkedIn Data Scientist job postings** — for domain‑specific evaluation. :contentReference[oaicite:12]{index=12}  
-- **General job posting datasets** for broader job matching tests. :contentReference[oaicite:13]{index=13}
+- **Data Science Job Postings & Skills (2024)** — with skills and job details. 
+url :  https://www.kaggle.com/datasets/asaniczka/data-science-job-postings-and-skills
+
 
 ---
 
