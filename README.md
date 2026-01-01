@@ -60,7 +60,7 @@ pip install -r requirements.txt
 ## 6.Folder Strucutre
 
 ```bash
-cv-job-matching-nlp/
+ResuMatch/
 ├── data/
 │   ├── cvs/                 # resume files
 │   ├── jobs/                # job posting files
