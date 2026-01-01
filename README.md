@@ -37,13 +37,14 @@ The goal is to automate candidate screening and provide understandable match res
 
 ---
 
+
 ## 4.Features
 
-✔ Semantic similarity matching (SBERT)  
-✔ Hybrid scoring with skill overlap  
-✔ Explainability (top skills and phrase contributions)  
-✔ Evaluation and comparison of models  
-✔ Examples with similarity scores
+1. Semantic similarity matching (SBERT)  
+2. Hybrid scoring with skill overlap  
+3. Explainability (top skills and phrase contributions)  
+4. Evaluation and comparison of models  
+5. Examples with similarity scores
 
 ---
 
@@ -52,11 +53,11 @@ The goal is to automate candidate screening and provide understandable match res
 ```bash
 git clone <your‑repo‑url>
 cd cv‑job‑matching
-pip install -r requirements.txt
+pip install -r requirements.txt  
+```
 
 
 ---
-
 ## 6.Folder Strucutre
 
 cv-job-matching-nlp/
@@ -70,21 +71,20 @@ cv-job-matching-nlp/
 ├── README.md
 ├── requirements.txt
 └── LICENSE
+----
 
 ## 7.Model Training & Matching
 
-1.Preprocess CVs and job descriptions
-2.Train models (Doc2Vec / SBERT)
-3.Infer embeddings and compute similarity
-4.Combine SBERT with skill scoring
-5.Visualize and explain matches
+1. Preprocess CVs and job descriptions
+2. Train models (Doc2Vec / SBERT)
+3. Infer embeddings and compute similarity
+4. Combine SBERT with skill scoring
+5. Visualize and explain matches
 
 
-
+---
 ## 8.Future Work
 
-LLM‑based matching (GPT embeddings)
-
-Real‑time job feed integration
-
-Improve skill extraction with NER
+1. LLM‑based matching (GPT embeddings)
+2. Real‑time job feed integration
+3. Improve skill extraction with NER
