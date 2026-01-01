@@ -51,8 +51,8 @@ The goal is to automate candidate screening and provide understandable match res
 ## 5.Installation
 
 ```bash
-git clone <your‑repo‑url>
-cd cv‑job‑matching
+git clone <repo‑url>
+cd ResuMatchs
 pip install -r requirements.txt  
 ```
 
@@ -66,9 +66,26 @@ cv-job-matching-nlp/
 │   ├── cvs/                 # resume files
 │   ├── jobs/                # job posting files
 │   └── skills.json          # skill dictionary
-├── notebooks/               # analysis notebooks
+|
+├── notebooks/  
+|   ├── 01_preprocessing.ipynb               
+│   ├── 02_doc2vec.ipynb
+│   ├── 03_sbert_baseline.ipynb               
+│   ├── 04_hybrid_model.ipynb
+│   └── 05_xai.ipynb              
+│   
 ├── src/                     # Python modules
+|   ├── preprocessing.py             
+│   ├── embedding.py
+│   ├── skills.py              
+│   ├── scrolling.py
+│   └── evaluation.py             
+│                        
 ├── results/                 # saved matches and metrics
+|   ├── doc2vec_results.csv             
+│   ├── sbert_results.csv
+│   ├── htbrid_results.csv               
+|                
 ├── README.md
 ├── requirements.txt
 └── LICENSE
