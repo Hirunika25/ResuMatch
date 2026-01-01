@@ -60,6 +60,7 @@ pip install -r requirements.txt
 ---
 ## 6.Folder Strucutre
 
+```bash
 cv-job-matching-nlp/
 ├── data/
 │   ├── cvs/                 # resume files
@@ -71,7 +72,7 @@ cv-job-matching-nlp/
 ├── README.md
 ├── requirements.txt
 └── LICENSE
-
+```
 ---
 
 ## 7.Model Training & Matching
